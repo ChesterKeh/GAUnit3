@@ -13,6 +13,10 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "dist")));
 
 //* routes block
+app.get("/api/", (req, res) => {
+  res.json({ hi: "world" });
+});
+
 app.get("/*", function (req, res) {
   res.sendFile(path.join(__dirname, "dist", "index.html"));
 });
