@@ -10,3 +10,9 @@
 creates route for every file in the folder `dist`
 
 ## setup proxy for vite
+https://vitejs.dev/config/server-options.html#server-proxy
+
+## org
+
+everything in `src` -> React
+everything outside -> express
