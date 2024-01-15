@@ -1,4 +1,3 @@
 export default function NewOrderPage() {
-    return <h2>NewOrderPage</h2>;
-  }
-  
+  return <h2>NewOrderPage</h2>;
+}
