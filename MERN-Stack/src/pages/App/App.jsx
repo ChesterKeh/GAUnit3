@@ -6,7 +6,8 @@ import OrderHistoryPage from "../OrderHistoryPage/OrderHistroyPage";
 import Navbar from "../../components/navbar";
 
 function App() {
-  const [user, setUser] = useState("");
+  const [user, setUser] = useState(null);
+  // log("user %o", user);
 
   if (user === null) {
     return (
